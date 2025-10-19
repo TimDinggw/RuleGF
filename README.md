@@ -1,5 +1,5 @@
 
-# Rule and Graph Fusion-based Cross-KG Link Prediction
+# RuleGF: Rule-Guided Graph Fusion for Link Prediction across Knowledge Graphs
 
 ## Installation
 Install Python and [PyClause](https://github.com/symbolic-kg/PyClause)
