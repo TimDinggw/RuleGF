@@ -80,23 +80,23 @@ if run == 0:
                 t = align_pairs[t]
             f1.write(h+'\t'+r+'\t'+t+'\n')
         
-    with open(f"{data_dir}/cross_test_distinct_entity.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_entity.txt", "r", encoding="utf-8") as f2:
-        for line in f2.readlines():
-            h, r, t = line.strip().split('\t')
-            if h in align_pairs.keys():
-                h = align_pairs[h]
-            if t in align_pairs.keys():
-                t = align_pairs[t]
-            f1.write(h+'\t'+r+'\t'+t+'\n')
+    # with open(f"{data_dir}/cross_test_distinct_entity.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_entity.txt", "r", encoding="utf-8") as f2:
+    #     for line in f2.readlines():
+    #         h, r, t = line.strip().split('\t')
+    #         if h in align_pairs.keys():
+    #             h = align_pairs[h]
+    #         if t in align_pairs.keys():
+    #             t = align_pairs[t]
+    #         f1.write(h+'\t'+r+'\t'+t+'\n')
 
-    with open(f"{data_dir}/cross_test_distinct_relation.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_relation.txt", "r", encoding="utf-8") as f2:
-        for line in f2.readlines():
-            h, r, t = line.strip().split('\t')
-            if h in align_pairs.keys():
-                h = align_pairs[h]
-            if t in align_pairs.keys():
-                t = align_pairs[t]
-            f1.write(h+'\t'+r+'\t'+t+'\n')
+    # with open(f"{data_dir}/cross_test_distinct_relation.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_relation.txt", "r", encoding="utf-8") as f2:
+    #     for line in f2.readlines():
+    #         h, r, t = line.strip().split('\t')
+    #         if h in align_pairs.keys():
+    #             h = align_pairs[h]
+    #         if t in align_pairs.keys():
+    #             t = align_pairs[t]
+    #         f1.write(h+'\t'+r+'\t'+t+'\n')
 else:
     data_dir_pre = args.data_dir + '/' + str(run-2)
     data_dir = args.data_dir + '/' + str(run-1)
@@ -186,20 +186,20 @@ else:
                 t = align_pairs[t]
             f1.write(h+'\t'+r+'\t'+t+'\n')
         
-    with open(f"{data_dir}/cross_test_distinct_entity.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_entity.txt", "r", encoding="utf-8") as f2:
-        for line in f2.readlines():
-            h, r, t = line.strip().split('\t')
-            if h in align_pairs.keys():
-                h = align_pairs[h]
-            if t in align_pairs.keys():
-                t = align_pairs[t]
-            f1.write(h+'\t'+r+'\t'+t+'\n')
+    # with open(f"{data_dir}/cross_test_distinct_entity.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_entity.txt", "r", encoding="utf-8") as f2:
+    #     for line in f2.readlines():
+    #         h, r, t = line.strip().split('\t')
+    #         if h in align_pairs.keys():
+    #             h = align_pairs[h]
+    #         if t in align_pairs.keys():
+    #             t = align_pairs[t]
+    #         f1.write(h+'\t'+r+'\t'+t+'\n')
 
-    with open(f"{data_dir}/cross_test_distinct_relation.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_relation.txt", "r", encoding="utf-8") as f2:
-        for line in f2.readlines():
-            h, r, t = line.strip().split('\t')
-            if h in align_pairs.keys():
-                h = align_pairs[h]
-            if t in align_pairs.keys():
-                t = align_pairs[t]
-            f1.write(h+'\t'+r+'\t'+t+'\n')
+    # with open(f"{data_dir}/cross_test_distinct_relation.txt", "w", encoding="utf-8") as f1, open(f"{origin_dir}/cross/cross_test_distinct_relation.txt", "r", encoding="utf-8") as f2:
+    #     for line in f2.readlines():
+    #         h, r, t = line.strip().split('\t')
+    #         if h in align_pairs.keys():
+    #             h = align_pairs[h]
+    #         if t in align_pairs.keys():
+    #             t = align_pairs[t]
+    #         f1.write(h+'\t'+r+'\t'+t+'\n')

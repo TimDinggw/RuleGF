@@ -32,7 +32,7 @@ path_rules_output = f"./{data_dir}/pyclause_output/cross-rules.txt"
 
 # load custom config from file
 #options = Options(f"{get_base_dir()}/config-my.yaml")
-options = Options("./PyClause-new-1/config-my.yaml")
+options = Options("./link_prediction/config-my.yaml")
 
 # set "amie" or "anyburl" and define specifc arguments
 # AMIE

@@ -88,5 +88,5 @@ def evaluate_target(target_path, target_name):
     return ranking, testset
 
 ranking, testset = evaluate_target(target, "ALL TEST SET")
-ranking1, testset1 = evaluate_target(target1, "DISTINCT ENTITY TEST SET")
-ranking2, testset2 = evaluate_target(target2, "DISTINCT RELATION TEST SET")
+# ranking1, testset1 = evaluate_target(target1, "DISTINCT ENTITY TEST SET")
+# ranking2, testset2 = evaluate_target(target2, "DISTINCT RELATION TEST SET")
