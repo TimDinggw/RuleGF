@@ -130,7 +130,7 @@ def run_paris(out_folder, data_dir, ontology1, ontology2):
         ini_file.write('factstore2 = %s\n' % ontology2)
         ini_file.write('home = %s/log\n' % task_name)
 
-    _ = subprocess.call(['java', '-Xmx26000m', '-jar', './entity-matchers-new/paris.jar', task_name + '/paris.ini'])
+    _ = subprocess.call(['java', '-Xmx26000m', '-jar', './entity_align/paris.jar', task_name + '/paris.ini'])
     return task_name
 
 
